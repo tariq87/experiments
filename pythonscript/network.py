@@ -8,7 +8,7 @@ import sys
 x = []
 y = []
 sum1 = 0
-client = SoftLayer.Client(username='prod.tariq', api_key='53c53cba25872849417fcc1794f9acdeb91c6680f597ddf76488aa4e4d999e51')
+client = SoftLayer.Client(username='prod.tariq', api_key='')
 object_mask = """mask[id]"""
 #object_mask2 = """mask[hardwareComponentModel.capacity,hardwareComponentModel.longDescription,modifyDate]"""
 object_mask3 = """mask[hardwareComponentModel.capacity,serialNumber]"""
