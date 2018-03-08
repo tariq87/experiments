@@ -4,7 +4,7 @@ import SoftLayer
 import json
 import sys
 
-client = SoftLayer.Client(username='prod.tariq', api_key='53c53cba25872849417fcc1794f9acdeb91c6680f597ddf76488aa4e4d999e51')
+client = SoftLayer.Client(username='prod.tariq', api_key='1')
 object_mask = "mask[id]"
 object_mask2 = """mask[hostname,billingItem.nextInvoiceTotalRecurringAmount]"""
 user_info = client['Account'].getHardware(mask=object_mask)
